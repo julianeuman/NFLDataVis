@@ -5,6 +5,7 @@
 
 This is a project for CS 4460: Information Visualization
 This project provides an interacitive data vis tool that can be used to identify trends and stats from the 2015-2016 NFL system.
+
 To view a video that further explains the purpose of our project and gives a demo of the system please go to the following: https://www.youtube.com/watch?v=HH1qWdHN-Pc&feature=youtu.be
 
 ## Motivation
