@@ -1,0 +1,112 @@
+body {
+  font: 11px sans-serif;
+  font-weight: 400;
+  text-align: center;
+/*  background: #202020;*/
+/*  color: #ff0000;*/
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 18px;
+  margin: 25px 0px 25px 0px;
+  padding: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+svg {
+  font: 10px sans-serif;
+}
+
+.background path {
+  fill: none;
+  stroke: #ddd;
+  shape-rendering: crispEdges;
+}
+
+.foreground path {
+  fill: none;
+}
+
+.brush .extent {
+  fill-opacity: .3;
+  stroke: #fff;
+  shape-rendering: crispEdges;
+}
+
+.axis line,
+.axis path {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+  cursor: move;
+}
+
+.dot {
+  stroke: none;
+}
+
+.tooltip {
+  background: lightgray;
+  color: #202020;
+  border-radius: 5px;
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+  text-align: left;
+  opacity: .25;
+}
+
+.scatterplot {
+  float: left;
+}
+
+#Team-Name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.NFL-label {
+  float: left;
+  margin: -40px 0px 0px 15px;
+  width: 175px;
+  height: 420px;
+  background: white;
+  color: black;
+}
+
+.wrap {
+  width: 1050px;
+  margin: 0 auto 0;
+}
+
+table {
+  width: 85%;
+  margin: 0 auto 0;
+  text-align: left;
+}
+
+.container-fluid {
+  float: left;
+    margin-top: 20px;
+}
+
+.legend {
+    font-size: 16px;
+}
+
+#legendDiv2 {
+	z-index:1; 
+}

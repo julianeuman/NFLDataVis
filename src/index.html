@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+    
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class="container-fluid">
+	<div class="row">
+		<div class="col-lg-2"> 
+            <div id="legendDiv">
+        		<h3>Divisions</h3>
+        		<h5>Click on a division or team to toggle display of its data.</h5>
+				<a id="hide"><h6>Show Teams</h6></a><br />
+		    </div>
+            <br>
+            <br>
+            <div class="NFL-label">
+                <div id="Team-Name">NFL Team Stats</div>
+                <table>
+                  <tr><td>Rank</td><td id="NFL-label-rank">--</td></tr>
+                  <tr><td>Points</td><td id="NFL-label-points">--</td></tr>
+                  <tr><td>Yds</td><td id="NFL-label-yds">--</td></tr>
+                  <tr><td>Yds/Play</td><td id="NFL-label-ydsperplay">--</td></tr>
+                  <tr><td>TOs</td><td id="NFL-label-tos">--</td></tr>
+                  <tr><td>FumblesLost</td><td id="NFL-label-fumbleslost">--</td></tr>
+                  <tr><td>1stDs</td><td id="NFL-label-1stdowns">--</td></tr>
+                  <tr><td>Completions</td><td id="NFL-label-completions">--</td></tr>
+                  <tr><td>PassAttempts</td><td id="NFL-label-passattempts">--</td></tr>
+                  <tr><td>PassYds</td><td id="NFL-label-passyds">--</td></tr>
+                  <tr><td>PassTDs</td><td id="NFL-label-passtds">--</td></tr>
+                  <tr><td>IntsThrown</td><td id="NFL-label-intthrown">--</td></tr>
+                  <tr><td>Pass1stDs</td><td id="NFL-label-pass1sttds">--</td></tr>
+                  <tr><td>RushAttempts</td><td id="NFL-label-rushattempts">--</td></tr>
+                  <tr><td>RushYds</td><td id="NFL-label-rushyds">--</td></tr>
+                  <tr><td>RushTDs</td><td id="NFL-label-rushtds">--</td></tr>
+                  <tr><td>RushY/A</td><td id="NFL-label-rushya">--</td></tr>
+                  <tr><td>Rush1stDs</td><td id="NFL-label-rush1sttd">--</td></tr>
+                  <tr><td>Penalties</td><td id="NFL-label-penalties">--</td></tr>
+                  <tr><td>PenYds</td><td id="NFL-label-penyds">--</td></tr>
+                  <tr><td>Pen1stDs</td><td id="NFL-label-pen1stds">--</td></tr>
+                  <tr><td>TODrive%</td><td id="NFL-label-todriveperc">--</td></tr>
+                </table>
+
+            </div>
+        </div> 
+		<div class="col-lg-2" id="legendDiv2" hidden>
+			<h6 id="teamList">Teams in Selected Divisions</h3>
+		</div>		
+		<div class="col-lg-6" id="graphs">
+		</div>
+		<div class="col-lg-5">
+			<h4 id="barTitle">Team Valuation by Rank</h4>
+		</div>
+		<div class="col-lg-6" id="graphs2">
+		</div>
+	</div>
+</div>
+    <!--    Boot Strap JS files-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <!-- D3 library -->
+    <script src="js/d3.min.js"></script>
+
+    <!-- Our js files -->
+    <script src="js/main.js"></script>
+	
+	<!-- JQuery slide view toggle -->
+	<script>
+	$('#hide').click(function () {
+        $("#legendDiv2").toggle("slide");
+		document.getElementById("hide").innerHTML = (document.getElementById("hide").textContent != "Show Teams") ? "Show Teams" : "Hide Teams";
+    });
+    </script>
+  </body>
+</html>
