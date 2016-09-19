@@ -8,6 +8,7 @@ This project provides an interacitive data vis tool that can be used to identify
 
 To view a video that further explains the purpose of our project and gives a demo of the system please go to the following: https://www.youtube.com/watch?v=HH1qWdHN-Pc&feature=youtu.be
 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Image of Vis")
 
 ## Motivation
 There is large quantities of data available for NFL statistics, but very few comprehensive visualizations of this data. Our goal was to encorporate as much data from all the NFL teams and provides an interactive visualization that lets the user decide what it is they want to compare and find in the data.
